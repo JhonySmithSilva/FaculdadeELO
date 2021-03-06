@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Exercicio3 {
     
     Scanner input = new Scanner(System.in);
-    //criar mvetor de inteiros
+    //criar vetor de inteiros
     int vetorDeInteiro[] = new int[3];
     
     public void vetor(){

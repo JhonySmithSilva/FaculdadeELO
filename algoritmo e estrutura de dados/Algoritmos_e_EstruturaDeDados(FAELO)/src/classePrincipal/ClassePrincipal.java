@@ -10,13 +10,15 @@ package classePrincipal;
  *
  * @author jony
  */
-public class ClassePrincipal {
-
-    exercicios_de_nivelamento.Exercicio3 exercicio3 = new exercicios_de_nivelamento.Exercicio3();            
+public class ClassePrincipal {                
             
     public static void main(String[] args) {
-        exercicios_de_nivelamento.Exercicio3 exercicio3 = new exercicios_de_nivelamento.Exercicio3(); 
-        exercicio3.vetor();
+        exercicios_de_nivelamento.Exercicio6 exercicio6 = new exercicios_de_nivelamento.Exercicio6(); 
+        exercicio6.TamanhoVetor();
+        exercicio6.peencherVetor();
+        exercicio6.getMaiorValor();
+        exercicio6.getMenorValor();
+        exercicio6.imprimirValoresVetor();
     }
     
 }
