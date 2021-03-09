@@ -19,7 +19,7 @@ public class Exercicio6 {
     Scanner input = new Scanner(System.in); 
     
     //criar vetor de inteiros    
-    int vetorDeInteiro[] = new int[tamanhoVetor()];
+    int[] vetorDeInteiro = new int[tamanhoVetor()];
     //variaveis recebem maior e menor valor
     int maiorValor;
     int menorValor;

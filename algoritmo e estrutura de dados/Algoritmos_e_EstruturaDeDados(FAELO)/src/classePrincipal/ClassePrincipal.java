@@ -13,13 +13,10 @@ package classePrincipal;
 public class ClassePrincipal {                
             
     public static void main(String[] args) {
-        exercicios_de_nivelamento.Exercicio6 exercicio6 = new exercicios_de_nivelamento.Exercicio6();         
-        exercicio6.preencherVetor();
-        exercicio6.getMaiorValor();
-        exercicio6.getMenorValor();
-        exercicio6.getMediaDosElementos();
-        exercicio6.contadorDeImpares();
-        exercicio6.imprimirValoresVetor();
+        exercicios_de_nivelamento.Exercicio8 exercicio8 = new exercicios_de_nivelamento.Exercicio8();         
+        exercicio8.preencherVetor_1();
+        exercicio8.preencherVetor_2();        
+        exercicio8.imprimirValoresVetor();
     }
     
 }
