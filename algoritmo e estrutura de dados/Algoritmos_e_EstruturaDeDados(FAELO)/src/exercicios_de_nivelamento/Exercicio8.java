@@ -54,7 +54,5 @@ public class Exercicio8 {
             System.out.print(" | " + vetor2[i]);
         }
         System.out.println(" | \n");
-    }       
-    
-    
+    }    
 }
