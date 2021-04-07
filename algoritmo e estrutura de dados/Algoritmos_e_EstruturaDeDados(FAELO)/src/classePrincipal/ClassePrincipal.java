@@ -12,11 +12,11 @@ package classePrincipal;
  */
 public class ClassePrincipal {                
             
-    public static void main(String[] args) {
-        exercicios_de_nivelamento.Exercicio8 exercicio8 = new exercicios_de_nivelamento.Exercicio8();         
-        exercicio8.preencherVetor_1();
-        exercicio8.preencherVetor_2();        
-        exercicio8.imprimirValoresVetor();
-    }
+    /* public static void main(String[] args) {
+    exercicios_de_nivelamento.Exercicio8 exercicio8 = new exercicios_de_nivelamento.Exercicio8();
+    exercicio8.preencherVetor_1();
+    exercicio8.preencherVetor_2();
+    exercicio8.imprimirValoresVetor();
+    }*/
     
 }

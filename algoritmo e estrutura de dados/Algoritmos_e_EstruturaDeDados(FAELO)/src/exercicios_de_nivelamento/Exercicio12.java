@@ -9,6 +9,6 @@ package exercicios_de_nivelamento;
  *
  * @author jony_
  */
-public class Exercicio15_b {
+public class Exercicio12 {
     
 }
