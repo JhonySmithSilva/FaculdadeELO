@@ -1,0 +1,57 @@
+1 – (2pts) Lista de Exercícios 01 – Vetor de Objetos
+
+
+
+2 – (4pts) Elabore uma Classe chamada VetordeObjetos para armazenar um vetor genérico
+(Objects), onde o usuário pode adicionar elementos de tipos diferente. Exemplo, primeiro
+elemento do tipo inteiro, segundo elemento do tipo string, terceiro elemento do tipo double, etc.
+Elabore um MENU, para acessar os métodos públicos da classe VetordeObjetos, como figura
+abaixo:
+           |==========================================|
+           |         VetordeObjetos                   |
+           |                                          |
+           | - elementos: [] Object                   |
+           | - tamanho: int                           |
+           |==========================================|
+           | + adicionar (elemento: Objetc): boolean  |
+           | - aumentarCapacidade(): void             |
+           | + getTamanho (): int                     |
+           | + toString(): String                     |
+           | + pesquisar (procurado Object): boolean  |
+           | + remover (posicao int)                  |
+           | + estaVazio(): boolean                   |  
+           |==========================================|
+
+3 – (4pts) Elabore uma Classe chamada Pilha, de acordo com o diagrama de classe abaixo:
+
+
+           |==========================================|
+           |         VetordeObjetos                   |
+           |                                          |
+           | - elementos: [] String                   |
+           | - tamanho: int                           |
+           |==========================================|
+           | + emoilhar (elemento: String): boolean   |
+           | - tamanho(): int                         |
+           | + pesquisar (elemento: String ): boolean |
+           | + toString(): String                     |
+           | + aumentarCapacidade (): void            |
+           | + desemplilhar () void                   |
+           | + estaVazia(): boolean                   |
+           | + topo(): String                         |  
+           |==========================================|
+
+Elabore um MENU, para acessar os métodos da classe Pilha, como figura abaixo:
+
+
+** MENU PILHA **
+
+1 - Empilhar
+2 - Tamanho
+3 - Pesquisar Elemento
+4 - Imprimir
+5 - Desempilhar
+6 - Está Vazia
+7 - Topo
+0 - Sair
+
