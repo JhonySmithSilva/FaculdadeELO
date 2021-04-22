@@ -39,8 +39,8 @@ public class MenuFila {
         System.out.println("tamanho da fila ----> " + fila.getTamanhoDaFila());
         //retirar o primeiro elemento a entrar na fila
         fila.desenfileirar();
-        fila.desenfileirar();
-        fila.desenfileirar();
+        //fila.desenfileirar();
+        //fila.desenfileirar();
         //fila.desenfileirar();
         //fila.desenfileirar();
         //imprimir novamente o tamanho da fila
