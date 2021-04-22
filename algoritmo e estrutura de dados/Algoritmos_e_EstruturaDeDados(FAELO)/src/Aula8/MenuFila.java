@@ -40,7 +40,7 @@ public class MenuFila {
         //retirar o primeiro elemento a entrar na fila
         fila.desenfileirar();
         fila.desenfileirar();
-        //fila.desenfileirar();
+        fila.desenfileirar();
         //fila.desenfileirar();
         //fila.desenfileirar();
         //imprimir novamente o tamanho da fila
