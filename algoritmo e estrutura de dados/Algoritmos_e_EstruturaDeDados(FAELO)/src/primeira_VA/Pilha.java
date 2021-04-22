@@ -26,7 +26,7 @@ public class Pilha {
     
     public boolean empilhar(String elemento){        
         aumentarCapacidade();        
-        if(this.elementos.length > this.tamanho || this.elementos.length == 0){            
+        if(this.elementos.length < this.tamanho){            
             this.elementos[this.tamanho] = elemento;
             this.tamanho++;
             return true;
@@ -58,10 +58,9 @@ public class Pilha {
         }         
         return mensagem;     
     }    
-    private void aumentarCapacidade(){       
-        String[] vetorMaior = new String[this.elementos.length];
+    private void aumentarCapacidade(){          
         if(this.tamanho == this.elementos.length){
-            vetorMaior = new String[this.elementos.length + 1];
+            String[] vetorMaior = new String[this.elementos.length + 1];
             for(int i = 0; i < this.elementos.length; i++){
                 vetorMaior[i] = this.elementos[i];
             }
